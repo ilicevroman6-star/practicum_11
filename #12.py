@@ -7,7 +7,6 @@ def with_holes(string: str) -> int:
 
     return cnt
 
-
 def without_holes(string: str) -> int:
     cnt = 0
 
@@ -20,9 +19,7 @@ def without_holes(string: str) -> int:
 
 if __name__ == '__main__':
     special_letters = 'a', 'b', 'd', 'e', 'g', 'o', 'p', 'q'
-
     words = input().split()
-    letters = ''.join(words)
 
     new_words = []
 
