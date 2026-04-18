@@ -1,4 +1,8 @@
 def with_holes(string: str) -> int:
+    '''
+    string is a word to search for special letters in it
+    '''
+    
     cnt = 0
 
     for char in string:
@@ -9,6 +13,10 @@ def with_holes(string: str) -> int:
 
 
 def without_holes(string: str) -> int:
+    '''
+    string is a word to search for all non-special letters in it.
+    '''
+    
     cnt = 0
 
     for char in string:
