@@ -7,6 +7,7 @@ def with_holes(string: str) -> int:
 
     return cnt
 
+
 def without_holes(string: str) -> int:
     cnt = 0
 
